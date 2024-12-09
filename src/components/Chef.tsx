@@ -9,16 +9,16 @@ const Chef = () => {
             <h1 className='text-[#FF9F0D] font-bold text-5xl ml-[580px]'>Me<span className='text-white'>et Our Chef</span></h1>
         </div>
         <div className='flex ml-40 gap-5 mt-6'>
-            <Image src="/Images/chef1.png" alt='1'
+            <Image src="/Images/Chef1.png" alt='1'
             width={312} height={391}/>
 
-            <Image src="/Images/chef2.png" alt='2'
+            <Image src="/Images/Chef2.png" alt='2'
             width={312} height={391}/>
 
-            <Image src="/Images/chef3.png" alt='3'
+            <Image src="/Images/Chef3.png" alt='3'
             width={312} height={391}/>
 
-            <Image src="/Images/chef4.png" alt='4'
+            <Image src="/Images/Chef4.png" alt='4'
             width={312} height={391}/>
         </div>
       <div>
