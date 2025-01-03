@@ -4,11 +4,11 @@ import { FaFacebook, FaTwitter, FaPinterest } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className=' w-full md:w-[1500px] h-[750px] bg-[#0D0D0DF2] overflow-hidden'>
+    <div className=' w-full md:w-[1350px] h-[750px] bg-[#0D0D0DF2] overflow-hidden'>
         <div className='relative mx-auto px-2 sm:px-8 lg:px-16 flex flex-col lg:flex-row'>
           {/* social icons */}
-        <hr  className=' absolute text-white -rotate-[90deg] w-[158px] border -ml-6 '/>
-        <div className=' absolute space-y-6 pl-9 pt-[90px] '>
+        <hr  className=' absolute text-white -rotate-[90deg] w-[158px] border  -ml-16 md:-ml-6 '/>
+        <div className=' absolute space-y-6 pl-9 pt-[90px] -ml-9 md:ml-0'>
           <FaFacebook size={25.28}
           className='text-white '/>
           <FaTwitter size={25.28}
@@ -16,7 +16,7 @@ const Hero = () => {
           <FaPinterest size={25.28}
           className='text-white'/>
           </div>
-          <hr  className=' absolute text-white -rotate-[90deg] w-[147px] border -ml-6 mt-[300px]'/>
+          <hr  className=' absolute text-white -rotate-[90deg] w-[147px] border  -ml-16 md:-ml-6 mt-[300px]'/>
           <div>
             {/* text content */}
         <p className='text-[#FF9F0D] font-vibe text-[32px] text-center lg:text-left lg:ml-20 pt-20'>Its Quick & Amusing!</p>

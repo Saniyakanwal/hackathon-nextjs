@@ -5,7 +5,7 @@ import { FaYoutube, FaTwitter, FaFacebook, FaPinterest, FaInstagram } from 'reac
 
 const Footer = () => {
   return (
-    <div className=' w-full md:w-[1500px] h-[900px] bg-[#0D0D0DF2] text-white overflow-hidden'>
+    <div className=' w-full md:w-[1350px] h-[900px] bg-[#0D0D0DF2] text-white overflow-hidden'>
       <div className=' max-w-[1170px]'>
         <h1 className='text-[#FF9F0D] font-bold text-[32px] ml-32 pt-8'>St<span className='text-white'>ill You Need Our Support ?</span></h1>
         <p className='font-inter text-sm ml-32'>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
